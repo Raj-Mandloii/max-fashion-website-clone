@@ -1,9 +1,13 @@
 import { Box } from "@chakra-ui/react";
-import AllRoutes from "./AllRoutes";
+import BudgetZone from "./Body/BudgetZone";
 import CustomerFav from "./Body/CustomerFav";
+import ShopByCategory from "./Body/ShopByCategory";
 import SlideShow from "./Body/SlideShow";
 import SpotLight from "./Body/SpotLight";
+import Trends from "./Body/Trends";
+import YouthStore from "./Body/YouthStore";
 import Flat from "./Flat";
+import Footer from "./Footer/Footer";
 import Search from "./Search";
 import Shipping from "./Shipping";
 
@@ -20,6 +24,15 @@ export default function Navbar(){
             <hr style={{marginLeft:"20em",marginRight:"18em",marginTop:"2em",}}/>
             <CustomerFav/>
             <hr style={{marginLeft:"20em",marginRight:"18em",marginTop:"2em",}}/>
+            <ShopByCategory/>
+            <hr style={{marginLeft:"20em",marginRight:"18em",marginTop:"2em",}}/>
+            <BudgetZone/>
+            <hr style={{marginLeft:"20em",marginRight:"18em",marginTop:"2em",}}/>
+            <YouthStore/>
+            <hr style={{marginLeft:"20em",marginRight:"18em",marginTop:"2em",}}/>
+            <Trends/>
+            <hr style={{marginTop:"2em",}}/>
+            <Footer/>
 
         </Box>
     )
