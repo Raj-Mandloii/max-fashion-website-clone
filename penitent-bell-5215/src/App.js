@@ -10,12 +10,15 @@ import {
   theme,
 } from '@chakra-ui/react';
 import Navbar from './Components/Navbar';
+import AllRoutes from './Components/AllRoutes';
 
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-    <Navbar/>
+      <Navbar/>
+    <AllRoutes/>
+    
     </ChakraProvider>
   );
 }
