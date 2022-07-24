@@ -31,7 +31,7 @@ export default function LoginModal({ isOpen, onOpen, onClose }) {
 
     return (
         <>
-            <External onClick={onOpen} content={"Sign Up/ Sign In"} color={"black"} />
+            <External  onClick={onOpen} content={"Sign Up/ Sign In"} color={"black"} />
             {/* <Button onClick={onOpen}>Open Modal</Button> */}
             {/* <Button ml={4} ref={finalRef}>
           I'll receive focus on close
