@@ -1,10 +1,11 @@
 import { Box } from "@chakra-ui/react";
-
+import {slideImageGirls}  from "../../data";
+import SlideShowComponent from "../BodyComponents/SlideShowComponents";
 export default function Girl(){
 
     return (
         <Box>
-            Girl's Page
+           <SlideShowComponent list={slideImageGirls} />
         </Box>
     )
 }

@@ -1,56 +1,3 @@
-// import { Box } from "@chakra-ui/react";
-// import BudgetZone from "./Body/BudgetZone";
-// import CustomerFav from "./Body/CustomerFav";
-// import ShopByCategory from "./Body/ShopByCategory";
-// import SlideShow from "./Body/SlideShow";
-// import SpotLight from "./Body/SpotLight";
-// import Trends from "./Body/Trends";
-// import YouthStore from "./Body/YouthStore";
-// import Flat from "./Flat";
-// import Footer from "./Footer/Footer";
-// import HomeCategories from "./HomepageCategories/HomeCategories";
-// import Search from "./Search";
-// import Shipping from "./Shipping";
-
-// export default function Navbar(){
-// //  ***************************                  This is actual home page               *****************    
-// const links = [
-
-//     {
-//       to: "/",
-//       title: "Home"
-//     },
-
-//     {
-//       to: "/men",
-//       title: "Men"
-//     },
-//     {
-//       to: "/women",
-//       title: "Women"
-//     },
-//     {
-//       to: "/girls",
-//       title: "Girls"
-//     },
-//     {
-//         to: "/boys",
-//         title: "Boys"
-//       },
-
-//   ];
-//     return (
-//         <Box>
-//             <Shipping/>
-//             <Search/>
-//             {/* <Flat/>
-//             <HomeCategories/> 
-//            <Footer/>  */}
-
-//         </Box>
-//     )
-// }
-
 import { Box, Image, Input, InputGroup, InputLeftElement, Spacer, Stack, useDisclosure } from "@chakra-ui/react";
 import { Link, NavLink } from "react-router-dom";
 import External from "../Commons/ShippingBoxes";
@@ -60,8 +7,7 @@ import searchIcon from "../Assets/search.png"
 import LoginModal from "./Modals/Login-signup";
 import Shipping from "./Shipping";
 import Flat from "./Flat";
-import HomeCategories from "./HomepageCategories/HomeCategories";
-import Footer from "./Footer/Footer";
+
 
 const links = [
     {
@@ -82,21 +28,24 @@ const links = [
         title: "Girls"
     },
     {
-        to: "/boy",
+        to: "/boys",
         title: "Boys"
     },
 
 ];
 const baseStyle = {
-    fontSize: "lg",
+    fontSize: "13.5px",
     bgColor: "red",
-    padding: "1em 1.2em",
+    padding: "1.6em 1.2em",
 };
 
 const activeStyle = {
-    fontSize: "lg",
-    padding: "1em 2em",
-    bgColor: "red",
+    fontSize: "13.5px",
+    padding: "1.6em 1.2em",
+    
+    backgroundColor:"white",
+    color:"blue",
+    // border:"1px solid red"
 };
 
 
@@ -105,7 +54,7 @@ function Search() {
     return (
         <Box>
             <Shipping/>
-            <Box w={"100%"} bgColor={"#f7f8f7"} display={"flex"} justifyContent={"space-evenly"} h={"65px"}>
+            <Box w={"100%"} bgColor={"#f7f8f7"} display={"flex"} justifyContent={"space-evenly"} h={"65px"} >
                 <Spacer />
 
                 <Link to="/">
@@ -128,7 +77,7 @@ function Search() {
                                 <Image w="1em" src={searchIcon} />
                             }
                         />
-                        <Input bgColor={"#ecedeb"} focusBorderColor="none" m="0.8em" w="20em" paddingLeft={"3em"} placeholder={"What are you looking for ?"} />
+                        <Input bgColor={"#ecedeb"} focusBorderColor="none" m="0.8em" w="20em" paddingLeft={"3em"} placeholder={"What are you looking for?"} />
                     </InputGroup>
 
 
