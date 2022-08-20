@@ -2,7 +2,7 @@ import { Box, Button, Image, } from "@chakra-ui/react";
 import { useNavigate  } from "react-router-dom";
 
 export default function HomeCategories() {
-   
+    
     return (
         <Box>
             <Box display={"flex"} justifyContent={"center"} >
@@ -25,7 +25,7 @@ function ShopButton({path,srcc,content}) {
             <Image src={srcc} />
             <Button onClick={()=>{
                 navigate(`/${path}`)
-                console.log('Path Changed',path);
+                
             }} fontSize={"18px"} color={"blue"} marginTop={"-8em"} marginLeft={"2.2em"} p={8} paddingLeft={"5em"} paddingRight={"5em"}>{content}</Button>
         </Box>
     )
