@@ -6,7 +6,7 @@ export default function HomeCategories() {
     return (
         <Box>
             <Box display={"flex"} justifyContent={"center"} >
-            <ShopButton path={"woman"} srcc={"https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Women-18July2022.jpg"} content={"SHOP WOMEN"}/>
+            <ShopButton path={"women"} srcc={"https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Women-18July2022.jpg"} content={"SHOP WOMEN"}/>
             <ShopButton path={"man"} srcc={"https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Men-18July2022.jpg"} content={"SHOP MEN"}/>
             <ShopButton path={"girl"} srcc={"https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Girls-18July2022.jpg"} content={"SHOP GIRLS"}/>
             <ShopButton path={"boys"} srcc={"https://lmsin.net/cdn-cgi/image/w=500,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/MAX-Friday/MAX2.O/pre-landing-Boys-18July2022.jpg"} content={"SHOP BOYS"}/>
